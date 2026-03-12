@@ -1,0 +1,12 @@
+{
+  "name": "fictional-engine",
+  "version": "1.0.0",
+  "description": "A lightweight engine for interactive fiction and text-based games",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/engine.test.js",
+    "lint": "node --check src/*.js test/*.js"
+  },
+  "keywords": ["fiction", "engine", "game", "text-adventure"],
+  "license": "Unlicense"
+}
